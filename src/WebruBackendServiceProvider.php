@@ -16,7 +16,7 @@ class WebruBackendServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/views/backend', 'backend');
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
 
         $this->publishes([
