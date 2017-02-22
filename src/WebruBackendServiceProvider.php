@@ -19,8 +19,8 @@ class WebruBackendServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
 
-        $this->publishes([
-            __DIR__.'/views/backend' => resource_path('views/backend'),
-        ]);
+//        $this->publishes([
+//            __DIR__.'/views/backend' => resource_path('views/backend'),
+//        ]);
     }
 }
