@@ -2,9 +2,7 @@
 
 namespace TomasRutar\WebruBackend;
 
-use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Route;
 
 class WebruBackendServiceProvider extends ServiceProvider
 {
@@ -15,7 +13,7 @@ class WebruBackendServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views/backend', 'backend');
+        $this->loadViewsFrom(__DIR__.'/views/backend', 'WebruBackend');
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
 
