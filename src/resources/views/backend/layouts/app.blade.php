@@ -24,7 +24,7 @@
 <main id="wrapper">
     <div id="wrapper-sidebar">
         <div class="sidebar-menu">
-            <ul class="nav nav-tabs">
+            <ul class="nav nav-pills">
                 <li class="visible-tooltip-xs">
                     <a href="#" title="dashboard!" data-toggle="tooltip" data-placement="right">
                         <i class="fa fa-dashboard"></i>
@@ -54,7 +54,7 @@
     </div>
     <div id="wrapper-content">
         <div class="container-fluid">
-            @section('__page', '')
+            @yield('__page', '')
         </div>
     </div>
 </main>
