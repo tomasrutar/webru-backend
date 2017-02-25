@@ -18,5 +18,13 @@
       "TomasRutar\\WebruBackend\\": "src/"
     }
   },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan vendor:publish"
+    ],
+    "post-update-cmd": [
+      "php artisan vendor:publish"
+    ]
+  },
   "minimum-stability": "dev"
 }
