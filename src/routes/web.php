@@ -20,5 +20,5 @@ Route::get('/backend/login', function () {
 });
 
 Route::post('/backend/login', array(
-    'uses' => 'WebruBacklendConstroller::Backend\UserController@Login'
+    'uses' => 'TomasRutar\WebruBackend\Controllers\UserController@Login'
 ));

@@ -6,7 +6,7 @@
     <div class="box-middle">
         <div class="login">
             <h2>Přihlásit se</h2>
-            <form action="{{ route('/backend/login') }}" method="post">
+            <form action="" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
                     <input name="email" placeholder="E-mail" value="{{ old('email') }}" class="form-control" required
