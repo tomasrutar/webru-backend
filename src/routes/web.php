@@ -12,5 +12,5 @@
 */
 
 Route::get('/backend', function () {
-    return view('WebruBackend::pages.dashboard');
+    return view('WebruBackendViews::pages.dashboard');
 });
