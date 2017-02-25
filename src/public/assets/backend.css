@@ -250,3 +250,12 @@ footer {
         width: 100%;
     }
 }
+
+.box-middle {
+    display: table;
+    height: 100%;
+}
+
+.box-middle > * {
+    display: table-cell;
+}
