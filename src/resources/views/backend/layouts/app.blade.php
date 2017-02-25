@@ -28,25 +28,25 @@
                 <li class="visible-tooltip-xs">
                     <a href="#" title="dashboard!" data-toggle="tooltip" data-placement="right">
                         <i class="fa fa-dashboard"></i>
-                        <span>Home</span>
+                        <span class="hidden-xs">Home</span>
                     </a>
                 </li>
                 <li class="visible-tooltip-xs">
                     <a href="#" title="dashboard!" data-toggle="tooltip" data-placement="right">
                         <i class="fa fa-dashboard"></i>
-                        <span>Home</span>
+                        <span class="hidden-xs">Home</span>
                     </a>
                 </li>
                 <li class="visible-tooltip-xs">
                     <a href="#" title="dashboard!" data-toggle="tooltip" data-placement="right">
                         <i class="fa fa-dashboard"></i>
-                        <span>Home</span>
+                        <span class="hidden-xs">Home</span>
                     </a>
                 </li>
                 <li class="visible-tooltip-xs">
                     <a href="#" title="dashboard!" data-toggle="tooltip" data-placement="right">
                         <i class="fa fa-dashboard"></i>
-                        <span>Home</span>
+                        <span class="hidden-xs">Home</span>
                     </a>
                 </li>
             </ul>
