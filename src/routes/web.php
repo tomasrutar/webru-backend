@@ -14,3 +14,7 @@
 Route::get('/backend', function () {
     return view('WebruBackendViews::pages.dashboard');
 });
+
+Route::get('/backend/login', function () {
+    return view('WebruBackendViews::pages.login');
+});
