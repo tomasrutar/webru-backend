@@ -9,7 +9,7 @@
             </button>
             <a class="navbar-brand" href="#">
                 <div class="hidden-xs">Webru <span>(backend)</span></div>
-                <div class="vissible-xs">Wb</div>
+                <div class="visible-xs">Wb</div>
             </a>
         </div>
 

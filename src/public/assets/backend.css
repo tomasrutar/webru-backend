@@ -149,24 +149,33 @@ footer {
 
 
 
-/***** == | *************** | == *****/
-/***** == |    NAV-PILLS    | == *****/
-/***** == | *************** | == *****/
-.nav-pills > li > a {
+/***** == | ***************** | == *****/
+/***** == |    SIDEBAR-NAV    | == *****/
+/***** == | ***************** | == *****/
+
+
+.sidebar-menu .nav li {
+    float: none;
+}
+.sidebar-menu .nav > li > a {
     border-radius: 0;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:focus,
-.nav-pills > li.active > a:hover {
+.sidebar-menu .nav > li.active > a,
+.sidebar-menu .nav > li.active > a:focus,
+.sidebar-menu .nav > li.active > a:hover {
     color: #fff;
     background-color: #2e6e96;
 }
 
-.nav-pills > li > a:focus,
-.nav-pills > li > a:hover {
+.sidebar-menu .nav > li > a:focus,
+.sidebar-menu .nav > li > a:hover {
     color: #fff;
     background-color: #2e6e96;
+}
+
+.sidebar-menu .nav li a span {
+    margin-left: 8px;
 }
 
 
@@ -242,8 +251,4 @@ footer {
     #wrapper-content {
         width: 100%;
     }
-}
-
-.sidebar-menu .nav li span {
-    margin-left: 8px;
 }
