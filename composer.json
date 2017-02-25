@@ -20,10 +20,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "php artisan vendor:publish"
+      "php artisan vendor:publish --tag=publicBackend"
     ],
     "post-update-cmd": [
-      "php artisan vendor:publish"
+      "php artisan vendor:publish --tag=publicBackend"
     ]
   },
   "minimum-stability": "dev"

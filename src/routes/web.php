@@ -18,3 +18,7 @@ Route::get('/backend', function () {
 Route::get('/backend/login', function () {
     return view('WebruBackendViews::pages.login');
 });
+
+Route::post('/backend/login', array(
+    'uses' => 'WebruBacklendConstroller::Backend\UserController@Login'
+));
