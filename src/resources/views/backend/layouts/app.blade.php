@@ -20,7 +20,7 @@
 <body>
 
 
-@include('WebruBackendViews::backend.partials.header')
+@include('WebruBackendViews::partials.header')
 <main id="wrapper">
     <div id="wrapper-sidebar">
         <div class="sidebar-menu">
@@ -58,7 +58,7 @@
         </div>
     </div>
 </main>
-@include('WebruBackendViews::backend.partials.footer')
+@include('WebruBackendViews::partials.footer')
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
