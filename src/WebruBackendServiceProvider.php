@@ -17,9 +17,8 @@ class WebruBackendServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/resources/views/backend', 'WebruBackendViews');
         $this->loadViewsFrom(__DIR__.'/public', 'WebruBackendPublic');
 
-
         $this->publishes([
             __DIR__.'/public' => public_path('/'),
-        ]);
+        ], 'publicBackend');
     }
 }
